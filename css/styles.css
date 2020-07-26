@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "status-bar.css";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+	background-color: white;
+	padding: 10px 20px; /*top&bottom, left&right*/
+	color: #1a1a1a;
+	font-family: 'Quicksand', sans-serif
+}
