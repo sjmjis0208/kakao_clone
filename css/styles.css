@@ -1,10 +1,22 @@
 @import "reset.css";
 @import "status-bar.css";
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import "header.css";
+@import "nav-bar.css";
+
+/*모든 element에 적용*/
+* {
+	box-sizing: border-box;
+}
 
 body {
 	background-color: white;
 	padding: 10px 20px; /*top&bottom, left&right*/
 	color: #1a1a1a;
-	font-family: 'Quicksand', sans-serif
+	font-family: 'Quicksand', sans-serif;
+	
+}
+
+a{
+	color: inherit; /*color 상속*/
 }
