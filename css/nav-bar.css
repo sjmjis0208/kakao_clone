@@ -18,3 +18,25 @@
 .nav i{
 	font-size: 20px;
 }
+
+.nav .nav__list-link{
+	position: relative;
+}
+
+.nav .nav__badge {
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	font-size: 12px;
+	color: white;
+	background-color: #e65f3f;
+	width: 18px;
+	height: 18px;
+	/*글자 가운데 정렬*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*height/2 -> 원 모양*/
+	border-radius: 50%;
+}
