@@ -1,0 +1,16 @@
+.friend {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*friend안에 있는 friend__avatar에 적용*/
+.friend .friend__avatar {
+	width: 50px;
+	border-radius: 40%
+}
+
+/*friend__avatar와 g-avatar 클래스를 둘다 가진 elelment에 적용*/
+.friend__avatar.g-avatar {
+	width: 70px;
+}

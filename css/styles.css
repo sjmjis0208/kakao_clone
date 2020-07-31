@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
 
 /*모든 element에 적용*/
 * {
