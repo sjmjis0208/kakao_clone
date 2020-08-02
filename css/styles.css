@@ -20,4 +20,5 @@ body {
 
 a{
 	color: inherit; /*color 상속*/
+	text-decoration: none;
 }

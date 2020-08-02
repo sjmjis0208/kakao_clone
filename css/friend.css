@@ -7,10 +7,50 @@
 /*friend안에 있는 friend__avatar에 적용*/
 .friend .friend__avatar {
 	width: 50px;
-	border-radius: 40%
+	border-radius: 38%
 }
 
 /*friend__avatar와 g-avatar 클래스를 둘다 가진 elelment에 적용*/
 .friend__avatar.g-avatar {
 	width: 70px;
+}
+
+.friend__avatar.m-avatar {
+	width: 60px;
+}
+
+.friend .friend__column{
+	display: flex;
+	align-items: center;
+}
+
+.friend .friend__avatar{
+	margin-right: 15px;
+}
+
+.friend__content .friend__name {
+	/*이름 밑에 상메 가게 하기*/
+	display: block;
+	margin-bottom: 5px;
+}
+
+.friend__content .friend__status, 
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+	opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+	/*chats에 적용*/
+	font-size: 14px;
+}
+
+.friend__content .friend__status{
+	/*friend에 적용*/
+	font-size: 12px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+	font-size: 12px;
 }
