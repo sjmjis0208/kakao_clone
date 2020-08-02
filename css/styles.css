@@ -5,6 +5,7 @@
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends.css";
+@import "find.css";
 
 /*모든 element에 적용*/
 * {
